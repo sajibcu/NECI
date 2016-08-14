@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.my-btn a {
+	text-decoration:none;
+}
+
+
+
+
+/* Starting code for btn-blue */
+.btn-blue {
+	margin: 0px auto;
+	text-align: center;
+	/* text-shadow: -0.7px -0.7px 0.7px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8); */
+
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.5);
+	/* color: #333; */
+	
+	background-color: #f5c146; /* #3bb3e0; */
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	padding:10px 50px 10px 20px;
+	background-image: linear-gradient(bottom, rgb(246,199,88) 0%, rgb(245,193,70) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(246,199,88) 0%, rgb(245,193,70) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(246,199,88) 0%, rgb(245,193,70) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(246,199,88) 0%, rgb(245,193,70) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(246,199,88) 0%, rgb(245,193,70) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(246,199,88)),
+	color-stop(1, rgb(245,193,70))
+	);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 5px 0px 0px #CE940B /* #156785 */, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 5px 0px 0px #CE940B /* #156785 */, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 5px 0px 0px #CE940B /* #156785 */, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 5px 0px 0px #CE940B /* #156785 */, 0px 10px 5px #999;
+}
+.btn-blue:active {
+	top:3px;
+	background-image: linear-gradient(bottom, rgb(245,193,70) 0%, rgb(246,199,88) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(245,193,70) 0%, rgb(246,199,88) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(245,193,70) 0%, rgb(246,199,88) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(245,193,70) 0%, rgb(246,199,88) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(245,193,70) 0%, rgb(246,199,88) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(245,193,70)),
+	color-stop(1, rgb(246,199,88))
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 2px 0px 0px #CE940B /* #156785 */, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 2px 0px 0px #CE940B /* #156785 */, 0px 5px 3px #999;
+	-o-box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 2px 0px 0px #CE940B /* #156785 */, 0px 5px 3px #999;
+	box-shadow: inset 0px 1px 0px #f5c146 /* #2ab7ec */, 0px 2px 0px 0px #CE940B /* #156785 */, 0px 5px 3px #999;
+}
+.btn-blue::before {
+	background-color: #f3b219; /* #2591b4; */
+	background-image:url(../img/my-image/right_arrow.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	content:"";
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:15px;
+	top:50%;
+	margin-top:-9px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0px 1px 0px #7B5806 /* #052756 */, 0px 1px 0px #f7d075 /* #60c9f0 */;
+	-moz-box-shadow: inset 0px 1px 0px #7B5806 /* #052756 */, 0px 1px 0px #f7d075 /* #60c9f0 */;
+	-o-box-shadow: inset 0px 1px 0px #7B5806 /* #052756 */, 0px 1px 0px #f7d075 /* #60c9f0 */;
+	box-shadow: inset 0px 1px 0px #7B5806 /* #052756 */, 0px 1px 0px #f7d075 /* #60c9f0 */;
+}
+.btn-blue:active::before {
+	top:50%;
+	margin-top:-12px;
+	-webkit-box-shadow: inset 0px 1px 0px #f7d075 /* #60c9f0 */, 0px 3px 0px #b68309 /* #0e3871 */, 0px 6px 3px #e6a50c /* #1a80a6 */;
+	-moz-box-shadow: inset 0px 1px 0px #f7d075 /* #60c9f0 */, 0px 3px 0px #b68309 /* #0e3871 */, 0px 6px 3px #e6a50c /* #1a80a6 */;
+	-o-box-shadow: inset 0px 1px 0px #f7d075 /* #60c9f0 */, 0px 3px 0px #b68309 /* #0e3871 */, 0px 6px 3px #e6a50c /* #1a80a6 */;
+	box-shadow: inset 0px 1px 0px #f7d075 /* #60c9f0 */, 0px 3px 0px #b68309 /* #0e3871 */, 0px 6px 3px #e6a50c /* #1a80a6 */;
+}
+/* Ending code for btn-blue */
+
+
+

@@ -1,0 +1,42 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+
+}
+
+.navbar-custom {
+    background-color: #222222;
+    border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+    color: #fed136;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+
+.navbar-custom .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    color: #fed136;
+    outline: none;
+}
+
+.navbar-custom .navbar-nav > .activex > a {
+    border-radius: 0;
+    color: white;
+    background-color: #fed136;
+}
+.navbar-custom .navbar-nav > .activex > a:hover,
+.navbar-custom .navbar-nav > .activex > a:focus {
+    color: white;
+    background-color: #fec503;
+}

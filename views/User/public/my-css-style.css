@@ -1,0 +1,206 @@
+@media (max-width:768px) {
+	.table-responsive table {
+		font-size:12px;
+	}
+}
+.portlet a {
+	text-decoration:none;
+}
+.statement {
+	display: none;
+}
+@media (min-width:768px) {
+	.my-h3 {
+		font-size:16px;
+	}
+}
+@media (max-width:768px) {
+	.my-h3 {
+		font-size:16px;
+		margin:12px 0 -35px 0;
+		padding:0;
+	}
+}
+
+.home_menu{
+	margin:0px !important;
+	border: none;
+}
+
+.home_menu li a
+{
+	color: #434F5B;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	/* line-height: 29px; */
+	background-color: #222222;
+	z-index:999;
+}
+.ebox {
+	background: #FAFAFA;
+	padding: 25px;
+	margin:  20px 0px;
+	border: 2px solid #e3e3e2;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.tbl-padding td {
+	padding: 3px 5px !important;
+}
+
+/* starting css code for BO A/C */
+@media (min-width: 768px) {
+	.ebox-type input,.ebox-type select,.ebox-type label {
+		margin-top: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.ebox-type input,.ebox-type select,.ebox-type label {
+		margin: 0px;
+	}
+}
+.bo-ac #mandatory {
+	color:#e23232;
+	font-size:12px;
+	font-weight:normal;
+}
+.bo-ac #optional {
+	color:#329932;
+	font-size:12px;
+	font-weight:normal;
+}
+
+
+.ebox label,.ebox .checkbox {
+/* 	margin:0 !important;
+	padding:0 !important; */
+}
+@media (min-width: 768px) {
+	.ebox .bo-ac {
+		margin-top:10px;
+	}
+}
+@media (max-width: 768px) {
+	.ebox .bo-ac {
+		margin-top:10px;
+	}
+}
+/* Enging css code for BO A/C */
+
+
+
+/* Start css code for money requisition */
+.req1 {
+	width: auto;
+	height: auto;
+	margin: 15px;
+	padding: 10px 0 0 0;
+}
+
+.req1 table tr td {
+	padding-bottom: 10px;
+}
+
+.req1 table tr th {
+	text-align: left;
+	vertical-align: top;
+}
+.req2 {
+	width: auto;
+	height: auto;
+	margin: 0 15px 15px 15px;
+	padding: 0;
+}
+.req2 table tr td {
+	padding-bottom: 5px;
+}
+/* End css code for money requisition */
+
+@media (min-width: 400px) {
+/*   font.small{
+    font-variant: small-caps !important;
+		margin:0px !important;
+		color: #4d1b7b !important;
+		font:26px Tahoma, Helvetica, Arial, Sans-Serif;
+		text-shadow:0px 1px 1px #555;
+	} */
+	.content-header-title {
+		color: #CE940B /* #4d1b7b */ !important;
+		text-shadow:0px 1px 1px #555;
+		font:26px Tahoma, Helvetica, Arial, Sans-Serif;
+	}
+} 
+
+@media (min-width: 768px) {
+	.content-header-title {
+		color:  #a47608 /* #4d1b7b */ !important;
+		font:32px Tahoma, Helvetica, Arial, Sans-Serif;
+		text-shadow:0px 1px 1px #555;
+	}
+/*   font.small{
+    font-variant: small-caps !important;
+		margin: 0;
+		color: #4d1b7b !important;
+		font:32px Tahoma, Helvetica, Arial, Sans-Serif;
+		text-shadow:0px 1px 1px #555;
+	} */
+	.align-right {
+		padding:0px !important;
+		margin:0px !important;
+		text-align: right !important;
+	}
+	.padnone>.col-md-12 {
+		padding:0px !important;
+	}
+}
+@media (max-width: 768px) {
+	.content-header-title {
+		color: #a47608 !important; /* #4d1b7b !important; */
+		font:26px Tahoma, Helvetica, Arial, Sans-Serif;
+		text-shadow:0px 1px 1px #555;
+	}
+  /* font.small{
+    font-variant: small-caps !important;
+		margin:0px !important;
+		color: #4d1b7b !important;
+		font:24px Tahoma, Helvetica, Arial, Sans-Serif;
+		text-shadow:0px 1px 1px #555;
+	} */
+	.align-left h4,.align-right h4 {
+		font-size: 14px !important;
+	}
+	.align-right {
+		padding-top:30px;
+		text-align: left;
+	}
+	.padnone>.col-md-12 {
+		padding:0px !important;
+	}
+}
+.tran li a {
+	transform: translate(-10px);
+	color: #CE940B; /* #13AEE0; */
+    -webkit-transition-property: background, font-family;
+       -moz-transition-property: background, font-family;
+         -o-transition-property: background, font-family;
+            transition-property: background, font-family;
+    -webkit-transition-duration: 0.2s;
+       -moz-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+       -moz-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+}
+@media (min-width:768px) {
+	.tran li a {
+		border-left:3px solid #CE940B; /* #3498DB; */
+	}
+}
+@media (max-width:768px) {
+	.tran li a {
+		border-left:3px solid #CE940B; /* #3498DB; */
+	}
+}
